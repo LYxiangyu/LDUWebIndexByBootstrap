@@ -1,3 +1,11 @@
+@font-face {
+	font-family: misans;
+	src: url("./misans/MiSans-Bold.ttf"),url("./misans/MiSans-Demibold.ttf"),url("./misans/MiSans-ExtraLight.ttf"),
+	url("./misans/MiSans-Heavy.ttf"),url("./misans/MiSans-Light.ttf"),url("./misans/MiSans-Medium.ttf"),
+	url("./misans/MiSans-Normal.ttf"),url("./misans/MiSans-Regular.ttf"),url("./misans/MiSans-Semibold.ttf"),
+	url("./misans/MiSans-Thin.ttf");
+}
+
 *{
 	font-family: "misans";
 }
@@ -75,9 +83,13 @@
 
 .jtheam{
 	background-color: rgb(255, 255, 255,0.0);
+	box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3)
 }
 
-.jtheam :hover
+.jtheam :hover{
+	background-color: rgb(0, 117, 255);
+	color: white;
+}
 			
 
 
